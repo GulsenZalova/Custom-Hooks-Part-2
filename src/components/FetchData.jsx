@@ -10,7 +10,7 @@ const submitUrl=(url)=>{
 }
   return (
     <>
-        <h1>using the usefetch hook </h1>
+        <h1>using the useFetch hook </h1>
       <input style={{witdh:"40%",padding:"20px 50px"}} type="text" value={url} />
       <button style={{witdh:"40%",padding:"20px 50px",backgroundColor:"blue",marginLeft:"15px",color:"white"}} onClick={(e)=>{submitUrl(e.target.value)}} >Submit URL</button>
       {
